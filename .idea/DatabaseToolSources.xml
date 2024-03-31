@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DatabaseToolSources">
+    <data-source name="localhost" uuid="2045b015-ef3b-441c-8ab4-87200b760c6a" type="SQLITE">
+      <base-info connect-type="DB_DEFAULT" product="SQLite" version="3.45.1" jdbc-name="SQLite JDBC" jdbc-version="3.45.1.0" />
+      <user-name />
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <url>jdbc:sqlite:C:/Users/USeR/Desktop/Lab1/Lab4/lab4/db.sqlite3</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="sqlite.xerial" />
+      <ssh-properties enabled="false" />
+      <jdbc-additional-properties>
+        <property name="enable_load_extension" value="true" />
+      </jdbc-additional-properties>
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+  </component>
+</project>

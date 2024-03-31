@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="382efede-d6b0-4e1b-b041-08c9752120ff" name="Changes" comment="home page">
-      <change afterPath="$PROJECT_DIR$/lab4/crud/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/templates/crud/template_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/templates/crud/template_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/templates/crud/template_menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/templates/crud/template_read.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/templates/crud/template_update.html" afterDir="false" />
+    <list default="true" id="382efede-d6b0-4e1b-b041-08c9752120ff" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/crud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/crud/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/templates/crud/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/templates/crud/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/templates/crud/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/USeR/Desktop/Lab1/Lab4/lab4/db.sqlite3",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USeR/Desktop/Lab1/Lab4/lab4/db.sqlite3&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,12 +67,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710695924065</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="final">
+      <option name="closed" value="true" />
+      <created>1711846223020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711846223020</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="home page" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
