@@ -1,0 +1,9 @@
+<div class="container mt-5 text-center">
+    <h1 class="text-center mb-4">Видалення книги</h1>
+    <p>Ви дійсно хочете видалити книгу <strong>"{{ book.title }}"</strong>?</p>
+    <form action="{% url 'delete_book' book_id %}" method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">Видалити</button>
+        <a href="{% url 'read_books' %}" class="btn btn-secondary">Скасувати</a>
+    </form>
+</div>

@@ -1,0 +1,33 @@
+<div class="container my-5">
+  <h1 class="text-center mb-4">Додати нову книгу</h1>
+
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form method="post">
+        {% csrf_token %}
+        <div class="mb-3">
+          <label for="title" class="form-label">Назва книги</label>
+          <input type="text" name="title" id="title" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="author" class="form-label">Автор</label>
+          <select name="author" id="author" class="form-select" required>
+            {% for author in authors %}
+              <option value="{{ author.id }}">{{ author.name }} {{ author.surname }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="year" class="form-label">Рік видання</label>
+          <input type="number" name="year" id="year" class="form-control {% if form.errors.year %} is-invalid {% endif %}" required>
+          {% if form.errors.year %}
+            <div class="invalid-feedback">
+              {{ form.errors.year.0 }}
+            </div>
+          {% endif %}
+        </div>
+        <button type="submit" class="btn btn-primary">Додати книгу</button>
+      </form>
+    </div>
+  </div>
+</div>

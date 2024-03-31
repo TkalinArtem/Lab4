@@ -1,0 +1,34 @@
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Редагувати дані про книгу</h1>
+    <!-- Форма оновлення книги -->
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label for="title" class="form-label">Назва</label>
+            <input type="text" name="title" id="title" class="form-control {% if form.errors.title %}is-invalid{% endif %}" value="{{ form.title.value }}" required>
+            {% if form.errors.title %}
+            <div class="invalid-feedback">
+                {{ form.errors.title.0 }}
+            </div>
+            {% endif %}
+        </div>
+        <div class="mb-3">
+            <label for="author" class="form-label">Автор</label>
+            <select name="author" id="author" class="form-select" required>
+                {% for author in authors %}
+                    <option value="{{ author.id }}" {% if form.instance.author == author %}selected{% endif %}>{{ author.name }} {{ author.surname }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="year" class="form-label">Рік публікації</label>
+            <input type="number" name="year" id="year" class="form-control {% if form.errors.year %}is-invalid{% endif %}" value="{{ form.year.value }}" required>
+            {% if form.errors.year %}
+            <div class="invalid-feedback">
+                {{ form.errors.year.0 }}
+            </div>
+            {% endif %}
+        </div>
+        <button type="submit" class="btn btn-primary">Зберегти</button>
+    </form>
+</div>
