@@ -1,6 +1,4 @@
-from django.http import HttpResponseRedirect
 from django.shortcuts import render, redirect, get_object_or_404
-from django.urls import reverse
 
 from .forms import BookForm
 from .models import Books, Author
@@ -31,7 +29,6 @@ def create(request):
             return redirect('read_books')
         else:
             print("Помилка")
-            #return redirect('book_list')
     else:
         form = BookForm()
 
@@ -56,7 +53,7 @@ def delete(request, book_id):
     context = {
         'book': book,
         'block_name': 'crud/template_delete.html',
-        'book_id': book_id,  # Додайте це поле у контекст
+        'book_id': book_id,
     }
     return render(request, 'crud/base.html', context)
 

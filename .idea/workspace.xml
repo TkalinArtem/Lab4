@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="382efede-d6b0-4e1b-b041-08c9752120ff" name="Changes" comment="working project">
+    <list default="true" id="382efede-d6b0-4e1b-b041-08c9752120ff" name="Changes" comment="added requirement.txt">
+      <change afterPath="$PROJECT_DIR$/lab4/crud/service/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/crud/service/book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/crud/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/crud/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/crud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/crud/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/crud/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/crud/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/templates/crud/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/templates/crud/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711881500451</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added requirement.txt">
+      <option name="closed" value="true" />
+      <created>1711889374447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711889374447</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -91,7 +106,8 @@
     <MESSAGE value="home page&#10;final" />
     <MESSAGE value="final" />
     <MESSAGE value="working project" />
-    <option name="LAST_COMMIT_MESSAGE" value="working project" />
+    <MESSAGE value="added requirement.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="added requirement.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
