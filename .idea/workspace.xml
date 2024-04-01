@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="382efede-d6b0-4e1b-b041-08c9752120ff" name="Changes" comment="added requirement.txt">
-      <change afterPath="$PROJECT_DIR$/lab4/crud/service/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/crud/service/book.py" afterDir="false" />
+    <list default="true" id="382efede-d6b0-4e1b-b041-08c9752120ff" name="Changes" comment="final project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/crud/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/crud/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/crud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/crud/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/crud/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/crud/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab4/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/templates/crud/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/templates/crud/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/templates/crud/template_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/templates/crud/template_menu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USeR/Desktop/Lab1/Lab4/lab4/db.sqlite3&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/USeR/Desktop/Lab1/Lab4/lab4/templates/crud",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USeR\Desktop\Lab1\Lab4\lab4\templates\crud" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -98,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711889374447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="final project">
+      <option name="closed" value="true" />
+      <created>1711950874203</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711950874203</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -107,7 +115,8 @@
     <MESSAGE value="final" />
     <MESSAGE value="working project" />
     <MESSAGE value="added requirement.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="added requirement.txt" />
+    <MESSAGE value="final project" />
+    <option name="LAST_COMMIT_MESSAGE" value="final project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
